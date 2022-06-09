@@ -11,7 +11,7 @@ public class ConnectionUtil {
         configuration.setDriverClassName("com.mysql.cj.jdbc.Driver");
         configuration.setJdbcUrl("jdbc:mysql://localhost:3306/java_database?setTimezone=Asia/Jakarta");
         configuration.setUsername("alliano-dev");
-        configuration.setPassword("alliano361**");
+        configuration.setPassword("");
 
         configuration.setMaximumPoolSize(30);
         configuration.setMinimumIdle(5);

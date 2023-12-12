@@ -30,7 +30,7 @@ public class ConnectionPoolTest {
         //user mysql kita
         configuration.setUsername("alliano-dev");
         //password mysql kita
-        configuration.setPassword("alliano361**");
+        configuration.setPassword("{mysql.password}");
 
         /**
          * setelah selesai meng set identitas database/mysql kita
